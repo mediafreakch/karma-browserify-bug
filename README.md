@@ -1,6 +1,6 @@
 # About
 
-This repository was created to showcase a bug that seems to exist in the `karma-browserify` plugin.
+This repository was created to showcase a [bug](https://github.com/nikku/karma-browserify/issues/152) that seems to exist in the `karma-browserify` plugin.
 If you have declared a `browserify` transform twice, once in a `package.json` and in the `karma.conf.js` as well, it gets applied twice.
 
 # How to verify
